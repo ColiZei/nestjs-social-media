@@ -8,4 +8,6 @@ Please use [git-flow](https://danielkummer.github.io/git-flow-cheatsheet/index.h
 
 # READMEs
 
-Server [README](server/README.md):
+Server [README](server/README.md)
+
+Client [README](client/README.md)
