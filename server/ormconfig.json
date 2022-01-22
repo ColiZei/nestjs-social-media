@@ -6,5 +6,10 @@
   "password": "root",
   "database": "socialmedia",
   "entities": ["dist/**/*.entity{.ts,.js}"],
-  "synchronize": false
+  "synchronize": false,
+  "migrations": ["dist/migrations/*{.ts,.js}"],
+  "migrationsTableName": "migrations_typeorm",
+  "cli": {
+    "migrationsDir": "src/migrations"
+  }
 }
