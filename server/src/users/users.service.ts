@@ -48,4 +48,8 @@ export class UsersService {
   hashPassword(password: string) {
     return bcrypt.hash(password, 10);
   }
+
+  async findByEmail(email: string): Promise<User> {
+    return this.usersRepository.findOne({ email });
+  }
 }
