@@ -4,6 +4,7 @@
 
 ```bash
 $ npm install
+$ npm db:install
 ```
 
 ## Running the app
