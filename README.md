@@ -1,16 +1,10 @@
-# Simple Vue and NestJS Social Media
+# Simple NestJS Social Media
 
-... for practicing Vue, NestJS and TypeScript
+... for practicing NestJS and TypeScript
 
 # Contribute
 
 Please use [git-flow](https://danielkummer.github.io/git-flow-cheatsheet/index.html) and create Pull-Requests
-
-# READMEs
-
-Server [README](server/README.md)
-
-Client [README](client/README.md)
 
 # Start Database
 
@@ -25,3 +19,40 @@ Visit phpMyAdmin at `http://localhost:8088/`
 ```bash
 docker-compose down
 ```
+
+## Installation
+
+```bash
+$ npm install
+$ npm db:install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
+## Test
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
+```
+
+## NestJS Documentation
+
+[Nest](https://github.com/nestjs/nest) framework.
