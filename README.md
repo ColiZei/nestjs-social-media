@@ -10,8 +10,6 @@ Please use [git-flow](https://danielkummer.github.io/git-flow-cheatsheet/index.h
 
 Server [README](server/README.md)
 
-Client [README](client/README.md)
-
 # Start Database
 
 ```bash
