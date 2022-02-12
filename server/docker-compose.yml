@@ -2,19 +2,19 @@ version: "3.9"
 services:
   db:
     image: mariadb:10.7
-    container_name: vue-nestjs-social-media-db
+    container_name: nestjs-social-media-db
     ports:
       - "3306:3306"
     restart: always
     volumes:
-      - ./mysql/data:/var/lib/mysql
+      - ./database/data:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: socialmedia
       MYSQL_USER: root
       MYSQL_PASSWORD: root
     networks:
-      - vuenestjssocialmedia
+      - nestjssocialmedia
   phpmyadmin:
     depends_on:
       - db
@@ -25,6 +25,6 @@ services:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD: root
     networks:
-      - vuenestjssocialmedia
+      - nestjssocialmedia
 networks:
-  vuenestjssocialmedia:
+  nestjssocialmedia:
