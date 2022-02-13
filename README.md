@@ -1,8 +1,13 @@
-# Simple NestJS Social Media
+# Simple NestJS Social Media Server
 
 ... for practicing NestJS and TypeScript
 
 This Repo should contain the same features like the [Symfony Version](https://github.com/ColiZei/symfony-social-media)
+
+Why two repositorys?
+
+I'd would like to imporove my Symfony and NestJS skills.
+You too? Feel free to join!
 
 # Contribute
 
