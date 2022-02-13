@@ -2,6 +2,8 @@
 
 ... for practicing NestJS and TypeScript
 
+This Repo should contain the same features like the [Symfony Version](https://github.com/ColiZei/symfony-social-media)
+
 # Contribute
 
 Please use [git-flow](https://danielkummer.github.io/git-flow-cheatsheet/index.html) and create Pull-Requests
