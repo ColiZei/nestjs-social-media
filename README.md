@@ -2,7 +2,7 @@
 
 ... for practicing NestJS and TypeScript
 
-This Repo should contain the same features like the [Symfony Version](https://github.com/ColiZei/symfony-social-media)
+This Repo should contain the same features as the [Symfony Version](https://github.com/ColiZei/symfony-social-media)
 
 ## Why two repositorys?
 
